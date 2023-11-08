@@ -1,3 +1,5 @@
+// These are not required. Though they can introduce type safety and prevent errors
+
 export interface ICustomer {
     id: number;
     name: string;
