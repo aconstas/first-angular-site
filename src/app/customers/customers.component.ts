@@ -1,15 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 
-import { ICustomer } from '../shared/interfaces';
-
 @Component({
     selector: 'app-customers',
     templateUrl: './customers.component.html'
 })
 export class CustomersComponent implements OnInit {
     title: string;
-    people: ICustomer[];
-    
+    people: any[];
+    isVisible = true;
+
     constructor() {}
     
     ngOnInit() {
